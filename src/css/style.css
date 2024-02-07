@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  background-color: #3c8dbc;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header h2{
+  font-size: 23px;
+  margin: 20px 20px 20px 50px;
+}
+
+.personal-user{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.username-header{
+  font-size: 15px;
+  margin: 0px 0px 0px 0px;
+  padding-right: 40px;
+}
+
+.user-image{
+  width: 30px;
+}
+
+aside{
+  width: 250px;
+  height: 100vh;
+  background-color: #222d32;
+
+}
+
+.aside-img{
+  width: 50px;
+  margin: 10px 6px 0px 10px;
+}
+
+.situation-img{
+  width: 12px;
+}
+
+.aside-user{
+  display: flex;
+  color: white;
+}
+
+.user-sep{
+  font-size: 15px;
+  margin: 10px 0px 0px 0px;
+}
+
+.status-sep{
+  display: flex;
+}
+
+
+  /*
+ topo, direita, baixo, esquerda
+*/
